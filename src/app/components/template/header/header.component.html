@@ -1,0 +1,21 @@
+<mat-toolbar class = "header mat-elevation-z4">
+    <span>
+        <a>
+            <img class = "logo" src="assets/img/logo.png" alt="logo" routerLink="/">
+
+        </a>
+    </span>
+    <!--
+    <span class="title-group">
+        <i class="material-icons v-middle " appRed>
+            book
+        </i>
+        Books<span appRed>4</span>Students
+    </span> -->
+    <span class="title-group" routerLink="{{routerUrl}}" >
+        <i class="material-icons v-middle " appRed>
+            {{icon}}
+        </i>
+        {{title}}
+    </span>
+</mat-toolbar>
